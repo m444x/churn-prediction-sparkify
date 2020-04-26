@@ -194,10 +194,11 @@ Let us check the results deeper in a Confusion Matrix:
 |1|9|11|4|16|
 |0|70|3|62|11|
 
-Although the metrics are better overall in the Logistic Regression, and not churning customers were predicted correctly. But customers who want to leave us have identified more accurately in the GradientBoost model. 
+The overall metrics are better in the Logistic Regression. This model predicted the non-churning customer correctly. However, customers that did churn were identified more accurately by the GradientBoost model.
 
-The main goal of our model ist to find users they will leave our services and prevent churning. So in our case, it is important to find as many true-positives as possible and reduce false-negative values. 
-The impact of false-positive values could be a financial impact on the company. Users who do not want to churn will receive a special discount. Such measures can also lead to higher customer satisfaction 
+The main goal of our model is to identify users that plan to leave our services and prevent them from churning. Hence, in our case it is crucial to find as many true-positives as possible and reduce false-negative values.
+
+False-positive values might present a negative financial impact on the company. Users who do not want to churn will receive a special discount. As such measures can also lead to higher customer satisfaction, I would opt to continue with this model.
 
 A detailed description can be found at the post available [here](https://medium.com/@bluebullet/predictive-maintenance-on-your-customer-d4f930ce2c85).
 
