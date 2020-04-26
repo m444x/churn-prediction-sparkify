@@ -199,7 +199,7 @@ Although the metrics are better overall in the Logistic Regression, and not chur
 The main goal of our model ist to find users they will leave our services and prevent churning. So in our case, it is important to find as many true-positives as possible and reduce false-negative values. 
 The impact of false-positive values could be a financial impact on the company. Users who do not want to churn will receive a special discount. Such measures can also lead to higher customer satisfaction 
 
-A detailed description can be found at the post available [here](https://medium.com/@bluebullet/what-coding-skills-are-expected-in-germany-in-2020-e19281dddf6b).
+A detailed description can be found at the post available [here](https://medium.com/@bluebullet/predictive-maintenance-on-your-customer-d4f930ce2c85).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
